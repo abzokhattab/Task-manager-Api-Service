@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.methods.generateAuthToken = async function () {
     const user = this
-    const token = jwt.sign({ _id: user._id.toString() }, 'thisismynewcourse')
+    const token = jwt.sign({ _id: user._id.toString() }, 'abzo')
 
     user.tokens = user.tokens.concat({ token })
     await user.save()
@@ -86,6 +86,12 @@ userSchema.pre('save', async function (next) {
     next()
 })
 
+
+userSchema.virtual('tasks',{
+    ref:'Task',
+    localField:'_id',
+    foreignField:'owner'
+})
 const User = mongoose.model('User', userSchema)
 
 module.exports = User
