@@ -15,7 +15,7 @@ const sendWelcomeEmail=(email,name)=>{
 
 const sendCancelationEmail =(email,name)=>{
     sgMail.send({
-        to :name,
+        to :email,
         from :'abzokhattab@gmail.com',
         subject:'Thanks for Leaving us  ',
         text :`Thanks ,${name} we are so happy without you  ... This mail may be put in spam as my gmail accounisnt authenticated yet`
