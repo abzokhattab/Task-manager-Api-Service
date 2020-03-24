@@ -15,9 +15,9 @@ autherization using tokens by JWT and using this authentication as middleware fo
  sendgrid was used to send welcome and cancelling mail for the users 
 ..
 
-user : 
-as user you can  read , create , delete , update info for the user .
-and as an authenticated user . you can show tasks,delete , edit , search .
+as a user you can  read , create , delete , update info for the user .
+and as an authenticated user . you can show tasks,delete , edit , search
+and also user can upload profile picture.
 
 # Prerequisites
 Fisrt you need to have nodejs in your machine . 
