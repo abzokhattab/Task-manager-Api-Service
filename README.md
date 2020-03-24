@@ -19,6 +19,9 @@ as a user you can  read , create , delete , update info for the user .
 and as an authenticated user . you can show tasks,delete , edit , search
 and also user can upload profile picture.
 
+# Testing 
+tests were made using jest package.
+
 # Prerequisites
 Fisrt you need to have nodejs in your machine . 
 then run cmd and write this command "npm install" to install all the dependencies inside the package file 
@@ -26,6 +29,6 @@ then run cmd and write this command "npm install" to install all the dependencie
 # Built With
 NodeJS and JavaScript 
 
-# Testing 
+# Usage 
 to run the project on localhost type this command "npm run start" as it will launch the project into the localhost 
 
