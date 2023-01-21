@@ -5,10 +5,6 @@
 # Project Title
 Task-manager-Api-Service
 
-# Deployment
-This api was deployed on Heroku in 
-this link : https://abzo-user-task-api.herokuapp.com/
-
 # intro 
 this repo covers : mongodb and mongoose to save the user and tasks data , security by hashing the password and saving the hashed value in the DB instead of using the actual password for security purposes ,
 autherization using tokens by JWT and using this authentication as middleware for accessing certain pages in the website . 
